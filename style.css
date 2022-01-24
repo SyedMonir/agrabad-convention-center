@@ -56,6 +56,16 @@
     font-size: 2.3rem;
     line-height: 3.7rem;
 }
+.moments a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Toast */
+.toast-header {
+    border-left: 5px solid #3F87F5;
+    ;
+}
 
 
 
@@ -107,7 +117,7 @@
 
 
 
-/* FOoter  */
+/* Footer  */
 footer {
     background-color: #0B0D17;
 }
