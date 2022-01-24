@@ -13,6 +13,11 @@
 
     <!-- Main CSS  -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -35,9 +40,9 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Packages</a>
+                            <a class="nav-link" href="#packages">Packages</a>
                         </li>
-                        <a class="nav-link" href="#">Booking</a>
+                        <a class="nav-link" href="#booking">Booking</a>
                         </li>
                         <a class="nav-link" href="#">About US</a>
                         </li>
@@ -74,7 +79,9 @@
                     <img src="./images//banner-2.jpg" class=" d-block w-100" alt="elegant event organizer">
                     <div class="carousel-caption ">
                         <h1>An elegant event organizer</h1>
-                        <p>As one of the leading event management companies in the Bangladesh, Elegant Event Management™ provide services all across the BD and Kolkata with our lavish range of products and services.
+                        <p>As one of the leading event management companies in the Bangladesh, Elegant Event Management™
+                            provide services all across the BD and Kolkata with our lavish range of products and
+                            services.
                         </p>
                         <button type="button" class="btn btn-light mb-2">
                             <a href="https://www.bizsouthasia.com/BD/agrabad-convention-hall-01878-903025"
@@ -86,7 +93,9 @@
                     <img src="./images/banner-4.jpg" class=" d-block w-100" alt="Beautiful designs ">
                     <div class="carousel-caption text-dark">
                         <h1>Beautiful designs make the problems invisible</h1>
-                        <p>Beautiful designs make the problems invisible. Open the door to your guests while we handle the rest. We beileve in better quality of life. Need a banquet hall? Contact Agrabad Convention Hall NOW. </p>
+                        <p>Beautiful designs make the problems invisible. Open the door to your guests while we handle
+                            the rest. We beileve in better quality of life. Need a banquet hall? Contact Agrabad
+                            Convention Hall NOW. </p>
                         <button type="button" class="btn btn-dark mb-2">
                             <a href="https://www.bizsouthasia.com/BD/agrabad-convention-hall-01878-903025"
                                 target="_blank" rel="noopener noreferrer" class="text-white">Book Now</a>
@@ -109,18 +118,104 @@
 
     <!-- MOMENTS -->
     <section class="container my-5">
-        <div class="row">
-            <div class="col-sm-12 col-md-5 ">
+        <div class="row justify-content-evenly">
+            <div class="col-sm-12 col-md-12 col-lg-5">
                 <img src="./images/wedding.png" alt="wedding" class="img-fluid">
             </div>
-            <div class="col-sm-12 col-md-5">
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
                 <div class="moments ">
-                    <h2>Every moment is Precious </h2>
-                    <p>Your wedding day is a day you wait for your entire life. You've planned it all down to the very last detail with matching bridesmaids dresses, a stunning bouquet, a gorgeous and yummy cake, and a photographer that's sure to capture images worthy of the greatest Instagram captions.</p>
+                    <h2 class="fw-bold">Every moment is Precious </h2>
+                    <p>Your wedding day is a day you wait for your entire life. You've planned it all down to the very
+                        last detail with matching bridesmaids dresses, a stunning bouquet, a gorgeous and yummy cake,
+                        and a photographer that's sure to capture images worthy of the greatest Instagram captions.</p>
+                    <button class="btn btn-primary px-3 py-2">Explore our album <i class="fas fa-arrow-right"></i> </button>
                 </div>
             </div>
         </div>
+
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="..." class="rounded me-2" alt="...">
+                <strong class="me-auto">Bootstrap</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Hello, world! This is a toast message.
+            </div>
+        </div>
     </section>
+
+
+
+    <!-- Our package -->
+    <section id="packages" class="container">
+        <h2 class="text-center fw-bold">Our packages</h2>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h3 class="fw-bold">$300</h3>
+                <h4 class="fw-bold">Business fair</h4>
+                <p>For most businesses event like book fair, craft fair.</p>
+                <ul class="p-1">
+                    <li class="py-1">  Limited space access</li>
+                    <li class="py-1">  Security facility</li>
+                    <li class="py-1">  Event support</li>
+                    <li class="py-1">  Decoration design</li>
+                    <li class="py-1">  Pay day bill</li>
+                </ul>
+                <button type="button" class="btn btn-light rounded-pill w-100 mb-5">Choose plan</button>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h3 class="fw-bold">$500</h3>
+                <h4 class="fw-bold">Wedding basic</h4>
+                <p>For most businesses event like book fair, craft fair.</p>
+                <ul class="p-1">
+                    <li class="py-1">  Full space access</li>
+                    <li class="py-1">  Food arrangement</li>
+                    <li class="py-1">  Management support</li>
+                    <li class="py-1">  Decoration design</li>
+                    <li class="py-1">  Billed as shift</li>
+                </ul>
+                <button type="button" class="btn btn-light rounded-pill w-100 mb-5">Choose plan</button>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 position-relative special-package">
+                <h3 class="fw-bold">$800</h3>
+                <h4 class="fw-bold">Business fair</h4>
+                <p>For most businesses event like book fair, craft fair.</p>
+                <ul class="p-1">
+                    <li class="py-1">  Full space access</li>
+                    <li class="py-1">  Dedicated team</li>
+                    <li class="py-1">  Buffet food</li>
+                    <li class="py-1">  Premium Decoration</li>
+                    <li class="py-1">  Pay as plan</li>
+                </ul>
+                <button type="button" class="btn btn-light rounded-pill w-100 mb-5">Choose plan</button>
+                <span class="position-absolute top-0 start-80 translate-middle badge rounded-pill bg-danger">
+                    hot
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h3 class="fw-bold">$1200</h3>
+                <h4 class="fw-bold">Corporate event</h4>
+                <p>For most businesses event like book fair, craft fair.</p>
+                <ul class="p-1">
+                    <li class="py-1">  Full space access</li>
+                    <li class="py-1">  Dedicated team</li>
+                    <li class="py-1">  Buffet food</li>
+                    <li class="py-1">  Premium Decoration</li>
+                    <li class="py-1">  Pay as plan</li>
+                </ul>
+                <button type="button" class="btn btn-light rounded-pill w-100 mb-5">Choose plan</button>
+            </div>
+        </div>
+    </section>
+
+
+
 
 
 
