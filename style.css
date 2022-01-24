@@ -13,8 +13,8 @@
 
 .navbar-light .navbar-brand {
     font-weight: bold;
-    font-size: 22px;
-    line-height: 33px;
+    font-size: 1.3rem;
+    line-height: 2rem;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -38,8 +38,27 @@
     border-radius: 0px 0px 5px 5px;
 } */
 
-.bannerText {
-    position: absolute;
-    top: 0;
-    z-index: 1;
+
+.carousel-item img {
+    height: 554px;
+    background-size: cover;
 }
+
+.carousel-item a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:415px) {
+    .navbar-brand {
+        display: inline-block;
+        width: 60%;
+        font-size: .8rem;
+        line-height: 21px;
+    }
+}
+
+
+
+
+/* MOMMENTS  */
